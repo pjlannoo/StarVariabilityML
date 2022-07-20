@@ -25,7 +25,8 @@
 ```
 ├── Notebooks                                               <- Rough Working Directory
 |   ├── ConnorWorkSpace
-|   |   └── Untitled.ipynb                                  <- Rough Jupyter Notebook
+|   |   ├── Cleaning.ipynb                                  <- Rough Jupyter Notebook: Cleaning
+|   |   └── Models.ipynb                                    <- Rough Jupyter Notebook: Models
 |   ├── PhilWorkspace                                       
 |   |   └── WorkNotebook.ipynb                              <- Rough Jupyter Notebook
 |   ├── ColumnDescriptions.ipynb                            <- Brief Description of all Columns
