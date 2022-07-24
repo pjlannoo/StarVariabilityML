@@ -42,7 +42,7 @@ Although the logistic regression performed quite well, we tried different model 
 The naive bayes model didn't perform well, so we didn't explore it further. It makes sense that the naive bayes model didn't perform well because the nb model operates under the assumption that all features are independent from each other, which is not true in this case, many of our variables are related to each other.
 
 Since the naive bayes model didn't look promising, we moved on to a decision tree to see if that would perform better than our logistic regression using the same method of throwing all of the data into the tree. We started with an untuned tree, which was very overfit, but after some initial tuning we got a more useful model.
-!['Confusion matric showing that this model is more accurate than the previous one.'](images/SinkTreeConfusionMatrix.png)
+!['Confusion matric showing that this model is more accurate than the previous one.'](Images/SinkTreeConfusionMatrix.png)
 
 This slightly tuned tree was performing better than our logistic regression, so we decided to continue exploring tree models.
 
@@ -50,7 +50,7 @@ This slightly tuned tree was performing better than our logistic regression, so 
 After those initial models, we experimented with our decision tree. Our explorations showed that the object columns were not helping our model, so we moved on to only using our numeric values.
 
 We further refined it by trying different numeric columns to see what was useful, and ended up with a final model that produced fewer false negatives.
-!['Confusion matrix showing that the final model performed better than our other models.'](images/FinalConfusionMatrix.png)
+!['Confusion matrix showing that the final model performed better than our other models.'](Images/FinalConfusionMatrix.png)
 
 ## Results
 With our final model made, we used it to predict on the unclassified data and we have our list of predicted variable stars at the bottom of FinalNotebook.ipynb
